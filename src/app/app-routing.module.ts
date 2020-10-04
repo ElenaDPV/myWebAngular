@@ -4,16 +4,17 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { ExperienciaComponent } from './experiencia/experiencia.component';
 import { ConocimientosComponent } from './conocimientos/conocimientos.component';
-import { FreelanceComponent } from './freelance/freelance.component';
+
 import { TrayectoriaComponent } from './trayectoria/trayectoria.component';
+import { FreelanceComponent } from './freelance/freelance.component';
 
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: 'experiencia', component: ExperienciaComponent},
-  {path: 'conocimiento', component: ConocimientosComponent},
-  {path: 'trayectoria', component: FreelanceComponent},
-  {path: 'freelace', component: TrayectoriaComponent},
+  {path: 'conocimientos', component: ConocimientosComponent},
+  {path: 'trayectoria', component: TrayectoriaComponent},
+  {path: 'freelance', component: FreelanceComponent},
   { path: '', redirectTo: '/home', pathMatch: 'full' }
 ];
 
