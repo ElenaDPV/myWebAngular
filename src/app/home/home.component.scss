@@ -1,12 +1,8 @@
 .titulo{
     margin: auto;
-    text-align: center;
-    
-}
-
-.titulo{
-  overflow:hidden;
-  animation: slidein 4s 1 linear;
+    text-align: center; 
+    overflow:hidden;
+    animation: slidein 4s 1 linear;
 }
 
 @keyframes slidein {
@@ -120,3 +116,31 @@
     -webkit-transform: rotate(4deg);
     transform: rotate(4deg);
   }
+  // MEDIA QUERYS ///////////////////////////////////
+// MOBILE
+@media (min-width: 0px) and (max-width: 425px) {
+  .titulo{
+    margin-top: -3em;
+  }
+  .titulo>h3{
+    margin-bottom: 2em;
+  }
+  .logo2{
+    display: none;
+  }
+  .movilDireccion{
+    flex-direction: column;
+  }
+}
+
+// (tablets)
+@media (min-width: 426px) and (max-width: 767px) { }
+
+// (LAPTOP S)
+@media (min-width: 768px) and (max-width: 1023px) {  }
+
+// (LAPTOP M)
+@media (min-width: 1024px) and (max-width: 1439px) {  }
+
+// Extra large  (4K)
+@media (min-width: 1440px) and (max-width: 2000px) {  }

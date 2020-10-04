@@ -1,7 +1,4 @@
-.navbar{
-    margin-left: 20.8em;
-    margin-right: 20.8em;
-}
+
 
 .logoNav{
     width: 2em;
@@ -16,3 +13,19 @@ background: -ms-linear-gradient(left, rgba(219,235,238,1) 0%, rgba(243,249,249,1
 background: linear-gradient(to right, rgba(219,235,238,1) 0%, rgba(243,249,249,1) 38%, rgba(243,249,249,1) 44%, rgba(254,250,245,1) 67%, rgba(254,250,245,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbebee', endColorstr='#fefaf5', GradientType=1 );
 }
+.bi-house{
+    color: var(--primerColor);
+    border-radius: 20px;
+    font-size: 1.5em;
+    position: fixed;
+    border: 2px solid var(--primerColor);
+    padding: 0.2em;
+    margin-top: -0.5em;
+    margin-left: -0.3em;
+}
+.bi-house:hover{
+    color: var(--tercerColor);
+    border: 2px solid var(--tercerColor);
+    
+}
+
