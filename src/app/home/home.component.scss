@@ -1,0 +1,122 @@
+.titulo{
+    margin: auto;
+    text-align: center;
+    
+}
+
+.titulo{
+  overflow:hidden;
+  animation: slidein 4s 1 linear;
+}
+
+@keyframes slidein {
+  from {
+    
+    opacity: 0.1;
+  }
+
+  to {
+   
+    opacity: 1;
+  }
+}
+
+.logo2{
+   
+    background-image: url('../../assets/img/logo.png');
+    height: 20em;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right;
+}
+
+/* barra animadas progres bars */
+
+.barrasAnim{
+   width: 100%;
+}
+
+.padBarras{
+    margin-top: 1em !important;
+    justify-content: center;
+    align-items: center;
+}
+.letrAumen{
+    text-align: end;
+    width: 10em;
+    
+}
+.grisclaR{
+    z-index: 2;
+    background-color: #F3F9F9;
+    border-right: 3px solid white;
+}
+.borderSolo{
+    background-color: #FEFAF5;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    width: 100%;
+    margin: auto;
+}
+.animacionLg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2em;
+    height: 2em;
+    border-right: 3px solid white;
+    background: #dbebee;
+    transition: width 2s;
+    -webkit-transition: width 2s;
+    -moz-transition: width 2s;
+    -ms-transition: width 2s;
+    -o-transition: width 2s;
+    border-radius: 4px;
+}
+.animacionLg:hover{
+    width: 100%;
+}
+.animacionLg>p {
+    margin-bottom: 0;
+}
+  .ani1{
+    width: 80%;
+  }
+  .ani2{
+    width: 78%;
+  }
+  .ani3{
+    width: 50%;
+  }
+  .ani4{
+    width: 42%;
+  }
+  .ani5{
+    width: 70%;
+  }
+  .ani6{
+    width: 55%;
+  }
+  
+  .freelanceIcon>i{
+    font-size: 10em;
+    
+  }
+  .fa-handshake{
+    color: var(--primerColor);
+    display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  }
+  .fa-handshake:hover, .fa-handshake:focus, .fa-handshake:active {
+    color: var(--tercerColor);
+    -webkit-transform: rotate(4deg);
+    transform: rotate(4deg);
+  }

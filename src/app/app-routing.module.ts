@@ -7,6 +7,7 @@ import { ConocimientosComponent } from './conocimientos/conocimientos.component'
 
 import { TrayectoriaComponent } from './trayectoria/trayectoria.component';
 import { FreelanceComponent } from './freelance/freelance.component';
+import { CookiesComponent } from './cookies/cookies.component';
 
 
 const routes: Routes = [
@@ -15,6 +16,7 @@ const routes: Routes = [
   {path: 'conocimientos', component: ConocimientosComponent},
   {path: 'trayectoria', component: TrayectoriaComponent},
   {path: 'freelance', component: FreelanceComponent},
+  {path: 'cookies', component: CookiesComponent},
   { path: '', redirectTo: '/home', pathMatch: 'full' }
 ];
 

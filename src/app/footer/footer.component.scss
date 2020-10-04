@@ -1,0 +1,17 @@
+.footerLink{
+    color: var(--negroColor);
+}
+.footerLink:hover{
+    color: var(--tercerColor);
+}
+.cookiesEnl>.btn{
+    background-color: var(--negroColor);
+    color: var(--cuartoColor);
+    font-weight: 300 !important;
+}
+.footerIcon{
+    margin-right: 1em;
+}
+.footerIcon>i{
+   font-size: 3em;
+}

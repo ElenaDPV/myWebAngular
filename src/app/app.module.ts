@@ -10,6 +10,7 @@ import { ExperienciaComponent } from './experiencia/experiencia.component';
 import { FreelanceComponent } from './freelance/freelance.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { CookiesComponent } from './cookies/cookies.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     ExperienciaComponent,
     FreelanceComponent,
     FooterComponent,
-    NavbarComponent
+    NavbarComponent,
+    CookiesComponent
   ],
   imports: [
     BrowserModule,
