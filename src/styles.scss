@@ -77,6 +77,10 @@ body{
 }
 section{
     background-color: var(--cuartoColor);
+    -webkit-box-shadow: 0px 0px 7px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 7px -2px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 7px -2px rgba(0,0,0,0.75);
+border-radius: 5px;
 }
 footer{
     color: var(--negroColor);
@@ -86,7 +90,7 @@ footer>a{
 }
 .raya{
     height: 0.2em;
-    width: 15em;
+    border-radius: 5px;
     margin-top: 0.5em;
     background: rgba(2,128,144,1);
     background: -moz-linear-gradient(left, rgba(2,128,144,1) 0%, rgba(2,128,144,1) 0%, rgba(2,128,144,1) 0%, rgba(2,128,144,1) 16%, rgba(0,168,150,1) 45%, rgba(252,176,69,1) 95%, rgba(252,176,69,1) 100%);
@@ -99,22 +103,30 @@ footer>a{
 
 }
 h1{
-    font-size: 3.5em;
+    font-size: 4em;
 }
 h2{
-    font-size: 2em;
+    font-size: 3.5em;
 }
 h3{
-    font-size: 1.5em;
+    font-size: 2em;
 }
 h4{
-    font-size: 1em;
+    font-size: 1.5em;
+    
 }
 p{
     line-height: 1.5;
 }
 b{
     font-weight: 600;
+}
+a{
+    color: var(--negroColor);
+    font-weight: 500;
+}
+a:hover{
+    color: var(--tercerColor);
 }
 .btn{
     border: 1px solid var(--grisClaro);
@@ -128,4 +140,30 @@ b{
 }
 .mar2{
     margin-right: 2em;
+}
+.pad2{
+padding: 2em;
+}
+.header1{
+    color: var(--negroColor);
+    text-align: center;
+}
+.headerImg{
+    height: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2em;
+    border-radius: 5px;
+}
+.titulo{
+    color: var(--negroColor);
+}
+.btnHome{
+margin-left: 0.5em;
+}
+.destacar{
+    color: var(--primerColor);
+}
+.weiFontBold{
+    color: var(--negroColor);
 }

@@ -1,0 +1,145 @@
+.headerImg{
+    background-image: url("../../assets/img/expe9.png"); 
+}
+.trayectoriaImg{
+    background-image: url('../../assets/img/trayectoria.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 15em;
+    -webkit-box-shadow: 0px 0px 7px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 7px -2px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 7px -2px rgba(0,0,0,0.75);
+border-radius: 5px;
+}
+.raya4{
+    width: 30%;
+}
+.animaTrayector{
+    width: 100%;
+    align-items: center;
+}
+
+.columnaTray{
+    display: flex;
+ justify-content: center;
+    align-items: center;
+    padding: 1em;
+    color: var(--cuartoColor);
+    width: 15%;
+    -webkit-box-shadow: 0px 0px 7px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 7px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 7px -2px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    text-align: end;
+    
+}
+.columnaTray>p{
+    text-align: center;
+}
+.flecha{
+    width: 5%;
+    
+    height: 0.2em;
+    background-color: var(--segundoColor);
+}
+.columnaTray1{
+    background-color: var(--primerColor);
+    
+}
+.columnaTray2{
+    background-color: #449e95;
+}
+.columnaTray3{
+    background-color: var(--segundoColor);
+}
+.columnaTray4{
+    background-color: #64a961;
+}
+.columnaTray5{
+    background-color: var(--tercerColor);
+    border: 3px solid #f89b18;
+}
+
+ .animacion{
+     overflow:hidden;
+    animation: slidein 3s 1 linear;
+ }
+
+
+ @keyframes slidein {
+   from {
+    
+     opacity: 0.2;
+   }
+
+   to {
+   
+     opacity: 1;
+  }
+ }
+.marLef{
+     margin-left: 0.5em;
+ }
+.stretchRight{
+	animation-name: stretchRight;
+	-webkit-animation-name: stretchRight;	
+
+	animation-duration: 3s;	
+	-webkit-animation-duration: 3s;
+
+	animation-timing-function: ease-out;	
+	-webkit-animation-timing-function: ease-out;	
+
+	transform-origin: 0% 0%;
+	-ms-transform-origin: 0% 0%;
+	-webkit-transform-origin: 0% 0%; 		
+}
+
+@keyframes stretchRight {
+	0% {
+		transform: scaleX(0.3);
+	}
+	40% {
+		transform: scaleX(1.02);
+	}
+	60% {
+		transform: scaleX(0.98);
+	}
+	80% {
+		transform: scaleX(1.01);
+	}
+	100% {
+		transform: scaleX(0.98);
+	}				
+	80% {
+		transform: scaleX(1.01);
+	}
+	100% {
+		transform: scaleX(1);
+	}							
+}
+
+@-webkit-keyframes stretchRight {
+	0% {
+		-webkit-transform: scaleX(0.3);
+	}
+	40% {
+		-webkit-transform: scaleX(1.02);
+	}
+	60% {
+		-webkit-transform: scaleX(0.98);
+	}
+	80% {
+		-webkit-transform: scaleX(1.01);
+	}
+	100% {
+		-webkit-transform: scaleX(0.98);
+	}				
+	80% {
+		-webkit-transform: scaleX(1.01);
+	}
+	100% {
+		-webkit-transform: scaleX(1);
+	}		
+}
