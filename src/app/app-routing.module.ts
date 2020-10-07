@@ -17,6 +17,8 @@ const routes: Routes = [
   {path: 'trayectoria', component: TrayectoriaComponent},
   {path: 'freelance', component: FreelanceComponent},
   {path: 'cookies', component: CookiesComponent},
+  { path: 'descargar', redirectTo: '/Users/elenacasa/pruebas1/src/assets/pdf/presupuestoWeb.pdf'},
+ 
   { path: '', redirectTo: '/home', pathMatch: 'full' }
 ];
 
