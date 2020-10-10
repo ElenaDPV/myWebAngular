@@ -11,6 +11,8 @@ import { FreelanceComponent } from './freelance/freelance.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { CookiesComponent } from './cookies/cookies.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { CookiesComponent } from './cookies/cookies.component';
     FreelanceComponent,
     FooterComponent,
     NavbarComponent,
-    CookiesComponent
+    CookiesComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
