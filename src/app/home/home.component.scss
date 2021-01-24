@@ -1,108 +1,128 @@
-.introduccion{
+.introduccion {
   height: 100vh;
 }
-.intro{
- 
-  background-image: url('../../assets/img/fondo1.png');
+.intro {
+  background-image: url("../../assets/img/fondo1.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
   height: 100%;
   width: 100%;
 }
-.pantalla{
+.pantalla {
   height: 40%;
   width: 40%;
   margin: -8em 0em 0em 0em;
 }
-.textoP{
+.textoP {
   font-size: 1em;
 }
-.letPequen{
+.letPequen {
   font-size: 0.5em;
 }
-.texto1{
+.textoAnimacion {
   opacity: 0;
   font-weight: 600;
   font-size: 1.2em;
- 
   animation-name: homeAni;
-  animation-duration: 4s;
-  animation-direction:normal;
+  animation-duration: 1s;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+.texto1 {
+  opacity: 0;
+  font-weight: 600;
+  font-size: 1.2em;
+  animation-name: homeAni;
+  animation-duration: 1s;
+  animation-direction: normal;
   animation-delay: 1s;
   animation-iteration-count: 1;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
-  
 }
-.texto2{
+.texto2 {
   opacity: 0;
-  
   animation-name: homeAni;
-  animation-duration: 4s;
-  animation-direction:normal;
+  animation-duration: 1s;
+  animation-direction: normal;
+  animation-delay: 3s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+.texto3 {
+  opacity: 0;
+  animation-name: homeAni;
+  animation-duration: 1s;
+  animation-direction: normal;
   animation-delay: 5s;
   animation-iteration-count: 1;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
-  
 }
-.texto3{
+.texto4 {
   opacity: 0;
- 
   animation-name: homeAni;
-  animation-duration: 4s;
-  animation-direction:normal;
+  animation-duration: 1s;
+  animation-direction: normal;
+  animation-delay: 7s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+.texto5 {
+  opacity: 0;
+  animation-name: homeAni;
+  animation-duration: 1s;
+  animation-direction: normal;
   animation-delay: 9s;
   animation-iteration-count: 1;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
-  
 }
-.texto4{
-  opacity: 0;
-
-  animation-name: homeAni;
-  animation-duration: 4s;
-  animation-direction:normal;
-  animation-delay: 13s;
-  animation-iteration-count: 1;
-  animation-timing-function: linear;
-  animation-fill-mode: forwards;
-  
-}
-.texto5{
-  opacity: 0;
-  
-  animation-name: homeAni;
-  animation-duration: 4s;
-  animation-direction:normal;
-  animation-delay: 17s;
-  animation-iteration-count: 1;
-  animation-timing-function: linear;
-  animation-fill-mode: forwards;
-  
-}
-
 @keyframes homeAni {
-  0%   { opacity: 0;}
-  100% {opacity: 1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-
-.btnPort{
+.btnPort {
   position: relative;
-  
+  top: -1.5em;
 }
-.btnPort2{
-
-  font-weight: 500;
-border-radius: 30em;
+.btnPort2 {
+  color: var(--letrasColor);
   padding: 0.5em;
-  background-color: transparent;
-  width: 10em;
 }
-.btnPort2:hover{
-  color: black;
+.btnPort2:hover {
+  color: var(--tercerColorB);
   font-weight: 500;
+  text-shadow: 2px 2px var(--grisOscuro);
+  border: 2px solid var(--letrasColor);
+}
+//MEDIA QUERYS
 
+//MOVIL
+@media (min-width: 0px) and (max-width: 767px) {
+  .intro {
+    background-image: url("../../assets/img/movilFondo.png");
+  }
+}
+//TABLET
+@media (min-width: 768px) and (max-width: 1023px) {
+  .intro {
+    background-image: url("../../assets/img/tabletFondo.png");
+  }
+}
+//LAPTOP M
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .btnPort {
+    position: relative;
+    top: 0em;
+  }
 }
