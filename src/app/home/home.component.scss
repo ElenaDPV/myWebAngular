@@ -1,3 +1,6 @@
+.displayNoneMovil{
+  display:block;
+}
 .introduccion {
   height: 100vh;
 }
@@ -19,10 +22,10 @@
 }
 .letPequen {
   font-size: 0.5em;
+  
 }
 .textoAnimacion {
   opacity: 0;
-  font-weight: 600;
   font-size: 1.2em;
   animation-name: homeAni;
   animation-duration: 1s;
@@ -32,56 +35,20 @@
   animation-fill-mode: forwards;
 }
 .texto1 {
-  opacity: 0;
-  font-weight: 600;
-  font-size: 1.2em;
-  animation-name: homeAni;
-  animation-duration: 1s;
-  animation-direction: normal;
   animation-delay: 1s;
-  animation-iteration-count: 1;
-  animation-timing-function: linear;
-  animation-fill-mode: forwards;
+  font-weight: 600;
 }
 .texto2 {
-  opacity: 0;
-  animation-name: homeAni;
-  animation-duration: 1s;
-  animation-direction: normal;
   animation-delay: 3s;
-  animation-iteration-count: 1;
-  animation-timing-function: linear;
-  animation-fill-mode: forwards;
 }
 .texto3 {
-  opacity: 0;
-  animation-name: homeAni;
-  animation-duration: 1s;
-  animation-direction: normal;
   animation-delay: 5s;
-  animation-iteration-count: 1;
-  animation-timing-function: linear;
-  animation-fill-mode: forwards;
 }
 .texto4 {
-  opacity: 0;
-  animation-name: homeAni;
-  animation-duration: 1s;
-  animation-direction: normal;
   animation-delay: 7s;
-  animation-iteration-count: 1;
-  animation-timing-function: linear;
-  animation-fill-mode: forwards;
 }
 .texto5 {
-  opacity: 0;
-  animation-name: homeAni;
-  animation-duration: 1s;
-  animation-direction: normal;
   animation-delay: 9s;
-  animation-iteration-count: 1;
-  animation-timing-function: linear;
-  animation-fill-mode: forwards;
 }
 @keyframes homeAni {
   0% {
@@ -93,7 +60,7 @@
 }
 .btnPort {
   position: relative;
-  top: -1.5em;
+  top: -0.5em;
 }
 .btnPort2 {
   color: var(--letrasColor);
@@ -109,8 +76,32 @@
 
 //MOVIL
 @media (min-width: 0px) and (max-width: 767px) {
+  .displayNoneMovil{
+    display:none;
+  }
+  .introduccion {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
   .intro {
-    background-image: url("../../assets/img/movilFondo.png");
+    margin: 0 !important;
+    padding: 0 !important;
+    background-image: url("../../assets/img/movilFondo2.png");
+    background-size: 120%;
+  }
+  .pantalla {
+    height: 40%;
+    width: 50%;
+    margin: 0em;
+  }
+  .textoP{
+    font-size: 0.8em;
+  }
+  .btnPort {
+    position: relative;
+    font-size: 0.8em;
+    width: 50%;
+    top: 0em;
   }
 }
 //TABLET
@@ -118,11 +109,37 @@
   .intro {
     background-image: url("../../assets/img/tabletFondo.png");
   }
+  .pantalla {
+    height: 52%;
+    width: 80%;
+    margin: 0em;
+  }
+  .btnPort {
+    top: -0.9em;
+  }
 }
 //LAPTOP M
 @media (min-width: 1024px) and (max-width: 1439px) {
+  .textoP {
+    font-size: 0.8em;
+  }
   .btnPort {
     position: relative;
     top: 0em;
   }
+}
+//4k
+@media (min-width: 2560px) and (max-width: 3000px) {
+  
+.introduccion {
+  width: 120%;
+}
+.intro {
+  background-size: 130%;
+  width: 120%;
+}
+.pantalla {
+  width: 100%;
+  
+}
 }
