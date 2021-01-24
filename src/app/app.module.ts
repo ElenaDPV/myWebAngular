@@ -13,6 +13,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { CookiesComponent } from './cookies/cookies.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { ResumeComponent } from './resume/resume.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { RegisterComponent } from './register/register.component';
     NavbarComponent,
     CookiesComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule,
