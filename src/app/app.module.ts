@@ -14,6 +14,7 @@ import { CookiesComponent } from './cookies/cookies.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { ResumeComponent } from './resume/resume.component';
+import { CodeComponent } from './code/code.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { ResumeComponent } from './resume/resume.component';
     CookiesComponent,
     LoginComponent,
     RegisterComponent,
-    ResumeComponent
+    ResumeComponent,
+    CodeComponent
   ],
   imports: [
     BrowserModule,
