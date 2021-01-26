@@ -1,15 +1,23 @@
 .sombraDiv{
+    background-color: rgb(15, 15, 15);
+    color: rgb(238, 236, 236);
+    border-radius: 1em;
+    font-weight: 500;
     -webkit-box-shadow: -2px 3px 12px 0px rgba(33,33,33,0.56);
--moz-box-shadow: -2px 3px 12px 0px rgba(33,33,33,0.56);
-box-shadow: -2px 3px 12px 0px rgba(33,33,33,0.56);
+    -moz-box-shadow: -2px 3px 12px 0px rgba(33,33,33,0.56);
+    box-shadow: -2px 3px 12px 0px rgba(33,33,33,0.56);
 }
-.espacioCode{
-    height: 5em;
+.headerImg{
+    background-image: url('../../assets/img/code/fondoCode.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
-.caja1{  
+.caja1{ 
+    font-family: 'Courier New', Courier, monospace !important;
     width: 100%;
-    height: 100vh;
-    padding: 3em;
+    padding: 1em 0em 1em 0em;
+    
 }
 .carouInvest{
     padding: 1em;
@@ -19,13 +27,12 @@ box-shadow: -2px 3px 12px 0px rgba(33,33,33,0.56);
 .tituNumbers1{
     font-weight: 500;
 }
-.tituNumbers2{
-    font-weight: 500;
-}
 .texto1code1{
     overflow: scroll;
+    scrollbar-color: dark !important;
+    overflow-y: auto;
     height: 15em;
     padding: 1em;
-    width: 40%;
-    
+    width: 40%;   
 }
+
