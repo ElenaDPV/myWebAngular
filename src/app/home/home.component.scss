@@ -1,145 +1,78 @@
-.displayNoneMovil{
-  display:block;
+div.espacioTop {
+  height: 10em;
 }
-.introduccion {
-  height: 100vh;
-}
-.intro {
-  background-image: url("../../assets/img/descokFondo.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
-  height: 100%;
-  width: 100%;
-}
-.pantalla {
-  height: 40%;
-  width: 40%;
-  margin: -8em 0em 0em 0em;
-}
-.textoP {
-  font-size: 1em;
-}
-.letPequen {
-  font-size: 0.5em;
-  
-}
-.textoAnimacion {
-  opacity: 0;
-  font-size: 1.2em;
-  animation-name: homeAni;
-  animation-duration: 1s;
-  animation-direction: normal;
-  animation-iteration-count: 1;
-  animation-timing-function: linear;
-  animation-fill-mode: forwards;
-}
-.texto1 {
-  animation-delay: 1s;
-  font-weight: 600;
-}
-.texto2 {
-  animation-delay: 3s;
-}
-.texto3 {
-  animation-delay: 5s;
-}
-.texto4 {
-  animation-delay: 7s;
-}
-.texto5 {
-  animation-delay: 9s;
-}
-@keyframes homeAni {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-.btnPort {
-  position: relative;
-  top: -0.5em;
-}
-.btnPort2 {
-  color: var(--letrasColor);
-  padding: 0.5em;
-}
-.btnPort2:hover {
-  color: var(--tercerColorB);
-  font-weight: 500;
-  text-shadow: 2px 2px var(--grisOscuro);
-  border: 2px solid var(--letrasColor);
-}
-//MEDIA QUERYS
 
-//MOVIL
-@media (min-width: 0px) and (max-width: 767px) {
-  .displayNoneMovil{
-    display:none;
+div.container.titulo1 {
+  height: 50%;
+  padding: 2em;
+  border: 1px solid var(--negroColor);
+  h1.titulo2 {
+    color: var(--negroColor);
+    font-weight: 500;
+
   }
-  .introduccion {
-    margin: 0 !important;
-    padding: 0 !important;
+
+  h2.titulo3 {
+    color: var(--negroColor);
+    font-weight: 500;
+
   }
-  .intro {
-    margin: 0 !important;
-    padding: 0 !important;
-    background-image: url("../../assets/img/movilFondo2.png");
-    background-size: 120%;
+
+  div.titulo4 {
+    a { 
+      padding: 1em;
+      border: 1px solid var(--negroColor);
+
+    }
+    a:hover{ 
+      padding: 1em;
+      border: 1px solid var(--tercerColor);
+
+    }
   }
-  .pantalla {
-    height: 40%;
-    width: 50%;
-    margin: 0em;
-  }
-  .textoP{
-    font-size: 0.8em;
-  }
-  .btnPort {
-    position: relative;
-    font-size: 0.8em;
-    width: 50%;
-    top: 0em;
+.espacioWi{
+  width: 2em;
+}
+  div.titulo5 {
+    a.btnPort2 {
+      padding: 1em;
+      border: 1px solid var(--negroColor);
+    }
+    a.btnPort2:hover {
+      border: 1px solid var(--tercerColor);
+    }
   }
 }
-//TABLET
-@media (min-width: 768px) and (max-width: 1023px) {
-  .intro {
-    background-image: url("../../assets/img/tabletFondo.png");
+
+/* MEDIA QUERYS*/
+// (MOVIL)
+@media (min-width: 0px) and (max-width: 767px) {   
+  div.espacioTop {
+    height: 3em;
   }
-  .pantalla {
-    height: 52%;
-    width: 80%;
-    margin: 0em;
+  .titulo2{
+    font-size: 200%;
   }
-  .btnPort {
-    top: -0.9em;
+  .titulo3{
+    font-size: 150%;
+  }
+
+}
+
+// (TABLET)
+@media (min-width: 768px) and (max-width: 1023px) {  
+  div.espacioTop {
+    height: 3em;
+  }
+  .titulo2{
+    font-size: 200%;
+  }
+  .titulo3{
+    font-size: 150%;
   }
 }
-//LAPTOP M
-@media (min-width: 1024px) and (max-width: 1439px) {
-  .textoP {
-    font-size: 0.8em;
-  }
-  .btnPort {
-    position: relative;
-    top: 0em;
-  }
-}
-//4k
-@media (min-width: 2560px) and (max-width: 3000px) {
+
+// (ESCRITORIO) IS OK
+// (ESCRITORIO GRANDE) IS OK
+// (4K) IS OK
   
-.introduccion {
-  width: 120%;
-}
-.intro {
-  background-size: 130%;
-  width: 120%;
-}
-.pantalla {
-  width: 100%;
-  
-}
-}

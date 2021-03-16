@@ -123,8 +123,7 @@ h3{
     font-size: 2em;
 }
 h4{
-    font-size: 1.5em;
-    
+    font-size: 1.5em;  
 }
 p{
     line-height: 1.5;
@@ -182,6 +181,18 @@ margin-left: 0.5em;
 .weiFontBold{
     color: var(--negroColor);
 }
+/*media querys letras*/
+@media (min-width: 0px) and (max-width: 767px) {   
+    
+    h2{
+      font-size: 200%;
+    }
+    h3{
+        font-size: 170%;
+      }
+    
+  
+  }
 
 // animación de trayectoria:
 

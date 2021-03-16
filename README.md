@@ -25,3 +25,20 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## RESPONSIVE
+
+// (MOVIL)
+  @media (min-width: 0px) and (max-width: 767px) {   }
+
+// (TABLET)
+  @media (min-width: 768px) and (max-width: 1023px) {   }
+
+// (ESCRITORIO)
+  @media (min-width: 1024px) and (max-width: 1439px) {   }
+
+// (ESCRITORIO GRANDE)
+  @media (min-width: 1440px) and (max-width: 2559px) {   }
+
+// (4K)
+  @media (min-width: 2560px) and (max-width: 3000px) {   }
