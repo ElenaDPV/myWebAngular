@@ -62,3 +62,29 @@
     padding: 1em;
     width: 50%;   
 }
+/*version mobile*/
+@media (min-width: 0px) and (max-width: 767px) {   
+    .cajaOu{
+        flex-direction: column;
+    }
+    .caja1{
+        flex-direction: column;
+    }
+    .caja3{
+        
+        flex-direction: column;
+    }
+    .carousel {
+        width: 20em !important;
+    }
+    .texto1code1{
+        width: 20em !important;
+    }
+    .ouPng{
+        width: 20em !important;
+    }
+    .texto2code2{
+        width: 20em !important;
+    }
+}
+

@@ -1,19 +1,37 @@
 div.espacioTop {
   height: 10em;
 }
+.textoSobra{
+  text-shadow: 4px 4px black !important;
+}
+.boton2Resu{
+  color: white;
+  background-color: var(--negroColor2);
+  text-shadow: 2px 1px var(--negroColor);
+  border: 1px solid white;
+}
+.boton1Code{
+  color: white;
+  background-color: var(--negroColor2);
+  text-shadow: 2px 1px var(--negroColor);
+  border: 1px solid white;
+}
 
 div.container.titulo1 {
   height: 50%;
   padding: 2em;
-  border: 1px solid var(--negroColor);
+  background-image: url('../../assets/img/portada2.jpeg') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
   h1.titulo2 {
-    color: var(--negroColor);
+    color: white;
     font-weight: 500;
 
   }
 
   h2.titulo3 {
-    color: var(--negroColor);
+    color: white;
     font-weight: 500;
 
   }
@@ -21,7 +39,7 @@ div.container.titulo1 {
   div.titulo4 {
     a { 
       padding: 1em;
-      border: 1px solid var(--negroColor);
+      
 
     }
     a:hover{ 
