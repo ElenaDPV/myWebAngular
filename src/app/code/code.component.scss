@@ -35,4 +35,30 @@
     padding: 1em;
     width: 40%;   
 }
+.cajaOu{
+    padding: 2em 7em 0em 7em;
+}
+.ouPng{
+    width: 50%;
+    height: 15em;
+    background-image: url('../../assets/img/oubita.png');
+    border: 5px solid black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 1em;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
 
+.texto2code2{
+    overflow: scroll;
+    scrollbar-color: dark !important;
+    overflow-y: auto;
+    height: 15em;
+    padding: 1em;
+    width: 50%;   
+}
