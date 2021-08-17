@@ -1,0 +1,44 @@
+.footerLink{
+    color: var(--negroColor);
+}
+.footerLink:hover{
+    color: var(--tercerColor);
+}
+.cookiesEnl>.btn{
+    background-color: var(--negroColor);
+    color: var(--cuartoColor);
+    font-weight: 300 !important;
+}
+.footerIcon{
+    margin-right: 1em;
+}
+.footerIcon>i{
+   font-size: 3em;
+}
+// MEDIA QUERYS ///////////////////////////////////
+// MOBILE
+@media (min-width: 0px) and (max-width: 425px) {
+    .listafoot{
+        margin-top: 0.8em;
+    }
+    .footerIcon{
+       
+        margin-right: 0.5em;
+    }
+    .footerIcon>i{
+       font-size: 1.5em;
+    }
+}
+  // (tablets)
+@media (min-width: 426px) and (max-width: 767px) {
+    
+}
+  
+  // (LAPTOP S)
+@media (min-width: 768px) and (max-width: 1023px) {  }
+  
+  // (LAPTOP M)
+@media (min-width: 1024px) and (max-width: 1439px) {  }
+  
+  // Extra large  (4K)
+@media (min-width: 1440px) and (max-width: 2000px) {  }

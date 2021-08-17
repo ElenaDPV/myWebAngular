@@ -1,0 +1,24 @@
+
+
+.logoNav{
+    width: 2em;
+}
+.navbar-light{
+    background-color: transparent;
+}
+.bi-house{
+    color: var(--primerColor);
+    border-radius: 20px;
+    font-size: 1.5em;
+    position: fixed;
+    border: 2px solid var(--primerColor);
+    padding: 0.2em;
+    margin-top: -0.5em;
+    margin-left: -0.3em;
+}
+.bi-house:hover{
+    color: var(--tercerColor);
+    border: 2px solid var(--tercerColor);
+    
+}
+

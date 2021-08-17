@@ -1,0 +1,96 @@
+div.espacioTop {
+  height: 10em;
+}
+.textoSobra{
+  text-shadow: 4px 4px black !important;
+}
+.boton2Resu{
+  color: white;
+  background-color: var(--negroColor2);
+  text-shadow: 2px 1px var(--negroColor);
+  border: 1px solid white;
+}
+.boton1Code{
+  color: white;
+  background-color: var(--negroColor2);
+  text-shadow: 2px 1px var(--negroColor);
+  border: 1px solid white;
+}
+
+div.container.titulo1 {
+  height: 50%;
+  padding: 2em;
+  background-image: url('../../assets/img/portada2.jpeg') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  h1.titulo2 {
+    color: white;
+    font-weight: 500;
+
+  }
+
+  h2.titulo3 {
+    color: white;
+    font-weight: 500;
+
+  }
+
+  div.titulo4 {
+    a { 
+      padding: 1em;
+      
+
+    }
+    a:hover{ 
+      padding: 1em;
+      border: 1px solid var(--tercerColor);
+
+    }
+  }
+.espacioWi{
+  width: 2em;
+}
+  div.titulo5 {
+    a.btnPort2 {
+      padding: 1em;
+      border: 1px solid var(--negroColor);
+    }
+    a.btnPort2:hover {
+      border: 1px solid var(--tercerColor);
+    }
+  }
+}
+
+/* MEDIA QUERYS*/
+// (MOVIL)
+@media (min-width: 0px) and (max-width: 767px) {   
+  div.espacioTop {
+    height: 3em;
+  }
+  .titulo2{
+    font-size: 200%;
+  }
+  .titulo3{
+    font-size: 150%;
+  }
+
+}
+
+// (TABLET)
+@media (min-width: 768px) and (max-width: 1023px) {  
+  div.espacioTop {
+    height: 3em;
+  }
+  .titulo2{
+    font-size: 200%;
+  }
+  .titulo3{
+    font-size: 150%;
+  }
+}
+
+// (ESCRITORIO) IS OK
+// (ESCRITORIO GRANDE) IS OK
+// (4K) IS OK
+  

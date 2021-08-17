@@ -1,1 +1,349 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root{
+    --primerColor: #028090;
+    --segundoColor: #00a896;
+    --tercerColor: #fcb045;
+    --tercerColorB: #fefaf5;
+    --enlaceColor: #1c3835;
+    --cuartoColor: #FFFFFF;
+    --quintoColor: #ddd;
+    --letrasColor:#636363;
+    --grisOscuro: #444444;
+    --negroColor:#22262a;
+    --grisClaro: #CCCCCC;
+    --negroColor2:#22262ac7;
+
+}
+
+// empieza formatear estilos
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+// termina formatear estilos
+
+body{
+    background: rgba(2,128,144,1);
+    background: -moz-linear-gradient(left, rgba(2,128,144,1) 0%, rgba(2,128,144,1) 0%, rgba(2,128,144,1) 0%, rgba(2,128,144,1) 16%, rgba(0,168,150,1) 45%, rgba(252,176,69,1) 95%, rgba(252,176,69,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(2,128,144,1)), color-stop(0%, rgba(2,128,144,1)), color-stop(0%, rgba(2,128,144,1)), color-stop(16%, rgba(2,128,144,1)), color-stop(45%, rgba(0,168,150,1)), color-stop(95%, rgba(252,176,69,1)), color-stop(100%, rgba(252,176,69,1)));
+    background: -webkit-linear-gradient(left, rgba(2,128,144,1) 0%, rgba(2,128,144,1) 0%, rgba(2,128,144,1) 0%, rgba(2,128,144,1) 16%, rgba(0,168,150,1) 45%, rgba(252,176,69,1) 95%, rgba(252,176,69,1) 100%);
+    background: -o-linear-gradient(left, rgba(2,128,144,1) 0%, rgba(2,128,144,1) 0%, rgba(2,128,144,1) 0%, rgba(2,128,144,1) 16%, rgba(0,168,150,1) 45%, rgba(252,176,69,1) 95%, rgba(252,176,69,1) 100%);
+    background: -ms-linear-gradient(left, rgba(2,128,144,1) 0%, rgba(2,128,144,1) 0%, rgba(2,128,144,1) 0%, rgba(2,128,144,1) 16%, rgba(0,168,150,1) 45%, rgba(252,176,69,1) 95%, rgba(252,176,69,1) 100%);
+    background: linear-gradient(to right, rgba(2,128,144,1) 0%, rgba(2,128,144,1) 0%, rgba(2,128,144,1) 0%, rgba(2,128,144,1) 16%, rgba(0,168,150,1) 45%, rgba(252,176,69,1) 95%, rgba(252,176,69,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#028090', endColorstr='#fcb045', GradientType=1 ); 
+    font-family: 'Prompt', sans-serif; 
+    color: var(--letrasColor); 
+    font-weight: 300;
+}
+.modoLight{
+    display: block;
+    background-color: white !important;
+}
+.modoDark{
+    display: none;
+}
+section{
+    background-color: var(--cuartoColor);
+    -webkit-box-shadow: 0px 0px 7px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 7px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 7px -2px rgba(0,0,0,0.75);
+    border-radius: 5px;
+}
+footer{
+    color: var(--negroColor);
+}
+footer>a{
+    color: var(--negroColor);
+}
+.raya{
+    height: 0.2em;
+    border-radius: 5px;
+    margin-top: 0.5em;
+    background: rgba(2,128,144,1);
+    background: -moz-linear-gradient(left, rgba(2,128,144,1) 0%, rgba(2,128,144,1) 0%, rgba(2,128,144,1) 0%, rgba(2,128,144,1) 16%, rgba(0,168,150,1) 45%, rgba(252,176,69,1) 95%, rgba(252,176,69,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(2,128,144,1)), color-stop(0%, rgba(2,128,144,1)), color-stop(0%, rgba(2,128,144,1)), color-stop(16%, rgba(2,128,144,1)), color-stop(45%, rgba(0,168,150,1)), color-stop(95%, rgba(252,176,69,1)), color-stop(100%, rgba(252,176,69,1)));
+    background: -webkit-linear-gradient(left, rgba(2,128,144,1) 0%, rgba(2,128,144,1) 0%, rgba(2,128,144,1) 0%, rgba(2,128,144,1) 16%, rgba(0,168,150,1) 45%, rgba(252,176,69,1) 95%, rgba(252,176,69,1) 100%);
+    background: -o-linear-gradient(left, rgba(2,128,144,1) 0%, rgba(2,128,144,1) 0%, rgba(2,128,144,1) 0%, rgba(2,128,144,1) 16%, rgba(0,168,150,1) 45%, rgba(252,176,69,1) 95%, rgba(252,176,69,1) 100%);
+    background: -ms-linear-gradient(left, rgba(2,128,144,1) 0%, rgba(2,128,144,1) 0%, rgba(2,128,144,1) 0%, rgba(2,128,144,1) 16%, rgba(0,168,150,1) 45%, rgba(252,176,69,1) 95%, rgba(252,176,69,1) 100%);
+    background: linear-gradient(to right, rgba(2,128,144,1) 0%, rgba(2,128,144,1) 0%, rgba(2,128,144,1) 0%, rgba(2,128,144,1) 16%, rgba(0,168,150,1) 45%, rgba(252,176,69,1) 95%, rgba(252,176,69,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#028090', endColorstr='#fcb045', GradientType=1 );
+}
+.raya4{
+    width: 30%;
+}
+h1{
+    font-size: 4em;
+}
+h2{
+    font-size: 3.5em;
+}
+h3{
+    font-size: 2em;
+}
+h4{
+    font-size: 1.5em;  
+}
+p{
+    line-height: 1.5;
+}
+b{
+    font-weight: 600;
+}
+a{
+    color: var(--negroColor);
+    font-weight: 500;
+}
+a:hover{
+    color: var(--tercerColor);
+}
+button{
+    outline:none !important;
+}
+.btn{
+    border: 1px solid var(--grisClaro);
+    color: var(--letrasColor);
+    outline:none !important;
+}
+.pad0{
+    padding:0;
+}
+.mar0{
+    margin: 0;
+}
+.mar2{
+    margin-right: 2em;
+}
+.pad2{
+    padding: 2em;
+}
+.header1{
+    color: var(--negroColor);
+    text-align: center;
+}
+.headerImg{
+    height: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2em;
+    border-radius: 5px;
+}
+.titulo{
+    color: var(--negroColor);
+}
+.btnHome{
+margin-left: 0.5em;
+}
+.destacar{
+    color: var(--primerColor);
+}
+.weiFontBold{
+    color: var(--negroColor);
+}
+/*media querys letras*/
+@media (min-width: 0px) and (max-width: 767px) {   
+    
+    h2{
+      font-size: 200%;
+    }
+    h3{
+        font-size: 170%;
+      }
+    
+  
+  }
+
+// animación de trayectoria:
+
+.animaTrayector{
+    width: 100%;
+    align-items: center;
+}
+
+.columnaTray{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    color: var(--cuartoColor);
+    width: 15%;
+    -webkit-box-shadow: 0px 0px 7px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 7px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 7px -2px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    text-align: end;
+}
+.columnaTray>p{
+    text-align: center;
+}
+.flecha{
+    width: 5%;
+    height: 0.2em;
+    background-color: var(--segundoColor);
+}
+.columnaTray1{
+    background-color: var(--primerColor);
+}
+.columnaTray2{
+    background-color: #449e95;  
+}
+.columnaTray3{
+    background-color: var(--segundoColor);
+}
+.columnaTray4{
+    background-color: #64a961;
+}
+.columnaTray5{
+    background-color: var(--tercerColor);
+}
+.fa-arrow-right{
+    color: var(--segundoColor);
+    font-size: 1.2em;
+}
+ .animacion{
+     overflow:hidden;
+    animation: slidein 3s 1 linear;
+ }
+
+
+ @keyframes slidein {
+   from {
+    
+     opacity: 0.2;
+   }
+
+   to {
+   
+     opacity: 1;
+  }
+ }
+.marLef{
+     margin-left: 0.5em;
+ }
+.stretchRight{
+	animation-name: stretchRight;
+	-webkit-animation-name: stretchRight;	
+
+	animation-duration: 3s;	
+	-webkit-animation-duration: 3s;
+
+	animation-timing-function: ease-out;	
+	-webkit-animation-timing-function: ease-out;	
+
+	transform-origin: 0% 0%;
+	-ms-transform-origin: 0% 0%;
+	-webkit-transform-origin: 0% 0%; 		
+}
+
+@keyframes stretchRight {
+	0% {
+		transform: scaleX(0.3);
+	}
+	40% {
+		transform: scaleX(1.02);
+	}
+	60% {
+		transform: scaleX(0.98);
+	}
+	80% {
+		transform: scaleX(1.01);
+	}
+	100% {
+		transform: scaleX(0.98);
+	}				
+	80% {
+		transform: scaleX(1.01);
+	}
+	100% {
+		transform: scaleX(1);
+	}							
+}
+
+@-webkit-keyframes stretchRight {
+	0% {
+		-webkit-transform: scaleX(0.3);
+	}
+	40% {
+		-webkit-transform: scaleX(1.02);
+	}
+	60% {
+		-webkit-transform: scaleX(0.98);
+	}
+	80% {
+		-webkit-transform: scaleX(1.01);
+	}
+	100% {
+		-webkit-transform: scaleX(0.98);
+	}				
+	80% {
+		-webkit-transform: scaleX(1.01);
+	}
+	100% {
+		-webkit-transform: scaleX(1);
+	}		
+}
+
+// termina animación de trayectoria
+//modo DARK
+.oscuro{
+    .modoDark1{
+        background-color: black !important;
+        color: white !important;
+    }
+    .modoLight{
+        display: none !important;
+    }
+    .modoDark{
+        display: block !important;
+        background-color: black;
+    }
+    .modoDark2{
+        color: white !important;
+        text-shadow: black 0.1em 0.1em 0.2em
+    }
+}
+.espacioBtn{
+    width: 3em;
+}
